@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const eventSchema = {
+const eventSchema = new mongoose.Schema({
     
     eventId: {
           type: String,           
@@ -98,7 +98,7 @@ const eventSchema = {
     //   unique: false
     // }
     
-  };
+  });
 
 
 export  default mongoose.model("Event",eventSchema);

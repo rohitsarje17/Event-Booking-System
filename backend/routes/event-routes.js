@@ -2,4 +2,4 @@ import express from "express";
 
 const eventRouter = express.Router();
 
-eventRouter
+export default eventRouter;

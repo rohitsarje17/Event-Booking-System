@@ -1,8 +1,6 @@
 import mongoose from "mongoose";
 
-const Schema=mongoose.Schema;
-
-const adminSchema = new Schema({
+const adminSchema = mongoose.Schema({
     // name:{
     //     type : String,
     //    // required:true,
